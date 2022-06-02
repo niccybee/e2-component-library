@@ -1,0 +1,46 @@
+Arguments: 
+  /Users/nicholasbenson/.volta/tools/image/node/14.19.3/bin/node /Users/nicholasbenson/.yarn/releases/yarn-1.22.18.cjs add -D rollup rollup-plugin-vue rollup-plugin-peer-depe-external
+
+PATH: 
+  /Users/nicholasbenson/.volta/tools/image/yarn/1.22.18/bin:/Users/nicholasbenson/.volta/tools/image/node/14.19.3/bin:/Users/nicholasbenson/.volta/bin:/Library/Frameworks/Python.framework/Versions/3.9/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Applications/Postgres.app/Contents/Versions/latest/bin:/Users/nicholasbenson/.volta/bin:/Library/Frameworks/Python.framework/Versions/3.9/bin:/Users/nicholasbenson/.fig/bin:/Users/nicholasbenson/.local/bin
+
+Yarn version: 
+  1.22.18
+
+Node version: 
+  14.19.3
+
+Platform: 
+  darwin x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/rollup-plugin-peer-depe-external: Not found
+      at Request.params.callback [as _callback] (/Users/nicholasbenson/.yarn/releases/yarn-1.22.18.cjs:77666:18)
+      at Request.self.callback (/Users/nicholasbenson/.yarn/releases/yarn-1.22.18.cjs:135288:22)
+      at Request.emit (events.js:400:28)
+      at Request.<anonymous> (/Users/nicholasbenson/.yarn/releases/yarn-1.22.18.cjs:136260:10)
+      at Request.emit (events.js:400:28)
+      at IncomingMessage.<anonymous> (/Users/nicholasbenson/.yarn/releases/yarn-1.22.18.cjs:136182:12)
+      at Object.onceWrapper (events.js:519:28)
+      at IncomingMessage.emit (events.js:412:35)
+      at endReadableNT (internal/streams/readable.js:1333:12)
+      at processTicksAndRejections (internal/process/task_queues.js:82:21)
+
+npm manifest: 
+  {
+    "name": "e2",
+    "version": "1.0.0",
+    "description": "Component Library ",
+    "main": "index.js",
+    "author": "niccybee <niccybee@users.noreply.github.com>",
+    "license": "MIT",
+    "peerDependencies": {
+      "vue" : "^3.2.21"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile

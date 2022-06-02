@@ -1,0 +1,22 @@
+{
+  "name": "e2-component-library",
+  "version": "0.0.1",
+  "description": "Component Library ",
+  "main": "dist/library.js",
+  "module": "dist/library.mjs",
+  "files" : ["dist/*"] ,
+  "author": "niccybee <niccybee@users.noreply.github.com>",
+  "license": "MIT",
+  "peerDependencies": {
+    "vue": "^3.2.21"
+  },
+  "devDependencies": {
+    "rollup": "^2.75.5",
+    "rollup-plugin-peer-deps-external": "^2.2.4",
+    "rollup-plugin-vue": "^6.0.0",
+    "@vue/compiler-sfc" : "3.2.36"
+  },
+  "scripts": {
+    "build" : "rollup -c"
+  }
+}
